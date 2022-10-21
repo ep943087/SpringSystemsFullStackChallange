@@ -1,0 +1,26 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+tr:nth-child(2n) {
+  background-color: lightgray;
+}
+
+label {
+  width: 200px;
+  display: block;
+}
+
+input[type="text"], select {
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+}
